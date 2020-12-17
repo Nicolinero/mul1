@@ -1,0 +1,31 @@
+
+.topnav{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: white;
+  float: right;
+  margin-bottom: 20px;
+  background-color: #BADFFF;
+
+}
+.topnav li {
+  display: block;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+body{
+  background-color: #BADFFF;
+}
+
+h1{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0%;
+}
+nav{
+  background-color: black;
+}
