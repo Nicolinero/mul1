@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+/* navigationsbar - opacity giver transparent effekt*/
+nav{
+  background-color: #E5B2A9;
+  opacity: 0.7;
+}
+
+nav ul{
+  text-align: center;
+  text-decoration: none;
+
+
+}
+/* display inline block, gør at punkter ikke står under hinanden med ved siden af hinanden*/
+nav ul li{
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  font-family: palatino;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom:8px;
+  list-style-type: none;
+}
+
+/* link styling så de forbliver som orginalt selvom man klikker sig ind på dem*/
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/*logo*/
+.logo{
+  margin-left: 40px;
+  margin-top: 20px;
+  opacity: 0.8;
+  position: absolute;
+
+}
+
+/*kontaktform*/
+/* style input med type="text", vælger elementer og tekstområder*/
+input[type=text], select, textarea {
+  width: 100%; /* Fuld width */
+  padding: 7px; /* tekstfelt padding/det hvide indeni */
+  border-radius: 4px; /* runde kanter*/
+  border: none; /* kant rundt om tekstfelterne*/
+  margin-top: 8px; /* margin mellem tekst felter*/
+  margin-bottom: 15px;
+}
+
+/* Send knap*/
+input[type=submit] {
+  background-color: #D3BBB2;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer; /* gør at man kan klikke på den*/
+
+}
+
+/* hover effekt send knap*/
+input[type=submit]:hover {
+  background-color: #B99B8F;
+
+}
+
+/* Baggrundfarve og padding rundt om container*/
+.container {
+  border-radius: 5px;
+  background-color: #EDD9D5;
+  padding: 30px;
+  position:fixed;
+  color: white;
+
+
+/*str og luft omkring/margin*/
+  width: 550px;
+  height: 380px;
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+
+.ikoner {
+  margin-top: 200px;
+  margin-left: 850px;
+}
+
+/* copyright*/
+.copyright {
+margin-top: 350px;
+font-size: 10px;
+font-family: palatino;
+color: #BF968B;
+}
